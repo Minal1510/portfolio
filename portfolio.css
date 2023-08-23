@@ -1,0 +1,640 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+
+
+
+/* *****hero-section***** */
+nav {
+    width: 100%;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.menu li {
+    list-style-type: none;
+    display: inline-block;
+    color: black;
+    padding: 0 10px;
+}
+.menu li a{
+    text-decoration: none;
+    border-bottom: 2px solid #0077f600;
+    transition: all 0.2s;
+}
+.menu li a:link{
+    text-decoration: none;
+    position: relative;
+    color:#0075f6;
+}
+.menu li a:visited{
+    text-decoration: none;
+    position: relative;
+    color:#0075f6;
+}
+.menu li a:hover{
+    text-decoration: none;
+    position: relative;
+    border-bottom: 2px solid #0075f6;
+}
+
+
+
+
+.menu li:hover{
+    color: #0075f6;
+    cursor: pointer;
+}
+
+.menu ul {
+    list-style-type: none;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+}
+.logo{
+    width: 20%;
+    display: flex;
+}
+.logo img{
+    width: 30%;
+}
+
+#toggle-btn{
+    border: none;
+    background-color: transparent;
+    outline: none;
+    font-size: 20px;
+    display: none;
+}
+
+
+
+
+/* *****bg div start***** */
+.bg{
+    width: 100%;
+   
+}
+.bg-img{
+    width: 70%;
+    margin: 0 auto;
+    background-size: cover;
+    background-image: url(img/img-2.jpg);
+    height: 500px;
+    position: relative;
+}
+.bg-text{
+    position: absolute;
+    top: 30%;
+    left: -3%;
+    font-size: 40px;
+}
+.bg-text span{
+    color: #0075f6;
+    font-size: 40px;
+}
+.bg-text h3{
+    padding-bottom: 20px;
+    font-size: 20px;
+    color: #0075f6;
+}
+.color-1{
+    font-size: 24px;
+    padding-top: 20px;
+}
+.hire-btn{
+    font-size: 16px;
+    padding: 10px;
+    letter-spacing: 5px;
+    text-decoration: none;
+    display: inline-block;
+    border: 2px solid #0075f6;
+    margin-top: 50px;
+}
+
+
+
+/* *****about div start***** */
+.about-div{
+    width: 80%;
+    display: flex;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.about-img{
+    flex-grow: 5;
+}
+.about-img img{
+    padding-left: 30px;
+    height: 400px;
+}
+.about-text{
+    flex-grow: 7; 
+    padding-left: 30px;
+}
+.about-text h2{
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-text p{
+    padding-left: 30px;
+}
+.about-text .text-2{
+    letter-spacing: 1.5px;
+}
+.about-web i{
+    padding: 20px;
+    font-size: 34px;
+    padding-left: 30px;
+}
+
+
+
+.about-1{
+    display: flex;
+    padding-top: 20px
+}
+.about-web-1 h5{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+.about-web-2 h5{
+    font-size: 20px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+
+
+
+
+/* *****my-skill div***** */
+.my-skill-con{
+    background-color: #0075f6;
+    width: 100%;
+    padding: 50px 0;
+    margin: 50px 0;
+    color: white;
+}
+.my-skill{
+    width: 80%;
+    padding: 0 30px;
+    text-align: center;
+    margin-top: 20px;
+    margin: 0 auto;
+}
+.c-text-1 h1{
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+.pro-main{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.pro-1{
+    width: 50%;
+    padding: 10px;
+}
+.pro-2{
+    width: 50%;
+    padding: 10px;
+}
+.skills{
+    padding: 25px 0;
+}
+.progress{
+    width: 100%;
+    background-color: whitesmoke;
+    height: 25px;
+    }
+.progress-baar{
+    width: 90%;
+    background-color: goldenrod;
+    height: 25px;
+    text-align: center;
+    color: whitesmoke;
+    padding: 4px;
+}
+.pw-2{
+    width: 80%;
+}
+.pw-3{
+    width: 75%;
+}
+.pw-4{
+    width: 95%;
+}
+.pw-5{
+    width: 70%;
+}
+
+
+
+
+
+/* *****skill***** */
+.wht-skill{
+    text-align: center;
+    padding: 20px;
+}
+.box-row{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.row-1{
+    flex-grow: 1;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 30px;
+    transition: all 0.8s;
+}
+.row-1 h2{
+    padding: 20px;
+}
+.row-1 i{
+    font-size: 34px;
+}
+
+.row-2{
+    flex-grow: 1;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 30px;
+    transition: all 0.8s;
+}
+.row-2 h2{
+    padding: 20px;
+}
+.row-2 i{
+    font-size: 34px;
+}
+
+.row-3{
+    flex-grow: 1;
+    text-align: center;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 30px;
+    transition: all 0.8s;
+}
+.row-3 h2{
+    padding: 20px;
+}
+.row-3 i{
+    font-size: 34px;
+}
+.row-1:hover, .row-2:hover, .row-3:hover{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+.box-row p{
+   padding: 10px 0;
+}
+
+
+
+
+
+
+/* *****hire-btn***** */
+.hire-me{
+    background-color: #0075f6;
+    height: 300px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+   }
+.box-1{
+     display: flex;
+     width: 80%;
+     justify-content: space-between;
+     margin: 0 auto;
+     align-items: center;
+}
+
+
+
+.hire-me .hire-text{
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+.hire-text .text-clr{
+    font-weight: bold;
+}
+ .hire-1{
+    font-size: 16px;
+    padding: 20px;
+    text-decoration: none;
+    display: inline-block;
+    background-color: white;
+    color: black;
+    transition: all 0.8s;
+}
+.hire-1:hover{
+    background-color: goldenrod;
+    color: whitesmoke;
+}
+
+
+
+
+
+
+/* *****my-work div start***** */
+.my-work{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+.my-work-1{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.project{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.project-1{
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+}
+.project-box{
+    flex-grow: 1;
+    width: 33.33%;
+    height: 400px;
+    margin: 8px;
+   }
+.project-box img{
+    width: 100%;
+    object-fit: cover;
+    height: inherit;
+}
+.gw-1{
+    background-image: url(img/Brochure\ Mokkup.jpg);
+    background-size: 100% 100%;
+    background-position: center;
+    transition: all 0.8s;
+    opacity: 0.5;
+}
+.gw-1:hover{
+    opacity: 1;
+}
+.gw-2{
+    background-image: url(img/KRISHNA-01.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.8s;
+    opacity: 0.5;
+}
+.gw-2:hover:hover{
+    opacity: 1;
+}
+.gw-3{
+    background-image: url(img/mockup\ 1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all 0.8s;
+    opacity: 0.5;
+}
+.gw-3:hover:hover{
+    opacity: 1;
+}
+
+.webbox{
+    flex-grow: 1;
+    width: 100%;
+    margin: 8px;
+}
+
+
+
+
+
+/* *****contact div start***** */
+.contact{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+}
+.con-box{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+}
+.con-box-1{
+    width: 50%;
+    flex-grow: 1;
+}
+.con-box-2{
+    width: 50%;
+    flex-grow: 1;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+.con-box-2 .btn{
+    background: #0075f6;
+    border: 1px solid #0075f6 !important;
+    color: #fff !important;
+    padding: 10px;
+    cursor: pointer;
+}
+.form-group{
+    margin-bottom: 16px;
+}
+.form-box{
+    height: 52px !important;
+    background: #fff !important;
+    color: #000000 !important;
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    outline: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.msg-box{
+    resize: none;
+    overflow: auto;
+    height: 200px !important;
+    width: 100%;
+}
+.con-box-2 .btn:hover{
+    background-color:green;
+    cursor: pointer;
+}
+.box-1-img img{
+    width: 100%;
+}
+
+
+
+
+
+/* *****footer div****** */
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+.w3{
+    color: #0075f6;
+    text-decoration: none;
+    padding: 10px;
+}
+   
+
+
+/* *****meadia quary start***** */
+@media screen and (max-width: 769px) {
+    .logo img{
+        width: 50%;
+    }
+    .about-div{
+        flex-direction: column;
+    }
+    .about-img{
+        text-align: center;
+    }
+    .con-box{
+        flex-direction: column;
+    }
+    .con-box-2{
+        width: 100%;
+    }
+    
+}
+
+
+
+@media screen and (max-width: 500px){
+    #toggle-btn{
+		display: block;
+		position: absolute;
+		top: 22px;
+		right: 22px;
+		color: rgb(0, 0, 0);
+	}
+    nav{
+        flex-direction: column;
+    }
+    .bg-img{
+        background-position: center;
+    }
+    .bg-text{
+        top: 40%;
+    }
+    .menu ul {
+        list-style-type: none;
+        font-size: 20px;
+        list-style-type: none;
+        padding-top: 30px;
+        float: right;
+    }
+    .menu li{
+        display: block;
+    }
+	 .logo{
+        width: 20%;
+        flex-direction: column;
+     }
+    .logo img{
+        width: 100%;
+    }
+    .menu{
+        display: none;
+        width: 100%;
+    }
+    .box-1{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .box-1 img{
+        width: 100%;
+    }
+    .about-div{
+        width: 100%;
+        flex-direction: column;
+        padding: 0;
+    }
+    .about-img img{
+        padding: 30px;
+        width: 100%;
+        height: auto;
+    }
+    .about-text .text-2{
+        letter-spacing: 1;
+    }
+    .about-1{
+        flex-direction: column;
+    }
+    .pro-main{
+        flex-direction: column;
+    }
+    .box-row{
+        flex-direction: column;
+    }
+    .project{
+        flex-direction: column;
+    }
+    .project-box{
+        width: 100%;
+    }
+    .webbox{
+        width: 100%;
+    }
+    .con-box{
+        flex-direction: column;
+        margin: 0;
+        width: 100%;
+    }
+    .con-box-1{
+        width: 100%;
+    }
+    .con-box-1 img{
+        width: 100%;
+    }
+    .con-box-2{
+        width: 100%;
+    }
+    .pro-1{
+        width: 100%;
+    }
+    .pro-2{
+        width: 100%;
+    }
+    .hire-1{
+        margin-top: 20px;
+    }
+}
+    
